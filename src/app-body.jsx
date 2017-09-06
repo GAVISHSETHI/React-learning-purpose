@@ -53,4 +53,4 @@ class Xyz extends Component {
 
 
 export default Xyz;
-   <Button loading secondary>Loading</Button>
+
