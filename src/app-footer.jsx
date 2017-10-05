@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Button} from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import  './index.css';
-class Pqr extends Component {
+class Footer extends Component {
 
 	  render() {
 		return (
@@ -22,4 +22,4 @@ class Pqr extends Component {
 	}
 
 
-export default Pqr;
+export default Footer;

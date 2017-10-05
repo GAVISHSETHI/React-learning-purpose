@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Button , Form , Segment , Container, Icon , Header ,  Loader } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
-
-class Xyz extends Component {
+// import Head from './app-header.js';
+class Body extends Component {
 	LoaderExampleInlineCentered = () => (
 	  <Loader active inline='centered' />
 	)
@@ -11,7 +11,6 @@ class Xyz extends Component {
 		return (
 
       <Container secondary>
-
 
     <br />
     <br />
@@ -30,7 +29,7 @@ class Xyz extends Component {
       <p><a href="https://myevive.com/password/forgot"> Forgot password? </a>
       </p>
 
-      <Button size= 'large' secondary animated onclick = {this.LoaderExampleInlineCentered()}>
+      <Button size= 'large' secondary animated onClick = "http://www.google.com">
             <Button.Content visible >Sign in</Button.Content>
             <Button.Content hidden >
               <Icon name='right arrow' />
@@ -45,12 +44,12 @@ class Xyz extends Component {
         </Button>
          </Form>
       </Segment>
-
      </Container>
+
 		);
     }
 	}
 
 
-export default Xyz;
+export default Body;
 
