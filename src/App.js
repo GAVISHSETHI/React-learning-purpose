@@ -10,13 +10,11 @@ class App extends Component {
     return (
       <div className="App">
      <div>
-       <Login />
      </div>
         <div>
           <Router history={browserHistory}>
-            <Route path={"/"} component={Homepage} >
-              {/*<Route path={"login"} component={Login} />*/}
-            </Route>
+            <Route path={"/"} component={Homepage} />
+            <Route path={"login"} component={Login} />
           </Router>
         </div>
      </div>
